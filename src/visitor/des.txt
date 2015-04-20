@@ -1,0 +1,8 @@
+des1.
+Represent an operation to be perfromed on elements of an object structure.
+Lets you define a new operation without changing the classes of elements on which 
+it operates.
+
+des2.
+Allows for one or more operation to be applied to a set of objects at runtime, 
+decoupling the operations from the object structure. 
