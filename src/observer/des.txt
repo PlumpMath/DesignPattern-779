@@ -1,0 +1,7 @@
+Define a one to many dependency between objects so that 
+when one object changes state,all it's dependents are notified
+and update automatically.
+#type:behavioral
+#. If you have an object that needs to share it's state with others,
+# without knowing who those objects are, the Observer is exactly what you need.
+#http://java.dzone.com/articles/design-patterns-uncovered

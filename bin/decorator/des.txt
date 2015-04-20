@@ -1,0 +1,4 @@
+Attach additional responsibilities to an object dynamically.Provide a flexible
+alternative to sub-classing for extending functionality.
+#http://java.dzone.com/articles/design-patterns-decorator
+#structural 
