@@ -1,0 +1,3 @@
+Encapsulate a request as an object.把请求封装成一个对象
+thereby letting you parameterize clients with different requests,让你通过不同参数实现不同请求
+queue or log requests, and support undoable operations. 排队或者进行日志请求 和支持可撤销操作。

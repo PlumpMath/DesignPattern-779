@@ -1,0 +1,14 @@
+1.模式的分类
+创建型 Singleton Builder Prototype Abstract Factory Factory Method
+创建型模式涉及到将对象实例化，这类模式都提供一个方法
+
+
+
+
+
+
+#状态模式和策略模式的区别
+http://www.cnblogs.com/Mainz/archive/2007/12/15/996081.html
+#策略模式和命令模式的区别
+http://blog.csdn.net/jiafu1115/article/details/6980423
+
