@@ -5,10 +5,10 @@
 
 
 
-
-
 #状态模式和策略模式的区别
 http://www.cnblogs.com/Mainz/archive/2007/12/15/996081.html
 #策略模式和命令模式的区别
 http://blog.csdn.net/jiafu1115/article/details/6980423
+#迭代器与组合模式的区别
+http://www.cnblogs.com/zhxiang/archive/2012/01/16/2324056.html
 
