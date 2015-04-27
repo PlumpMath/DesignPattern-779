@@ -1,0 +1,93 @@
+package builder;
+
+public class Hero {
+	private final Profession profession;
+	private final String name;
+	private final HairType hairType;
+	private final HairColor hairColor;
+	private final Weapon weapon;
+	private final Armor armor;
+	private Hero(HeroBuilder builder){
+		this.profession = builder.profession;
+		this.name = builder.name;
+		this.hairColor = builder.hairColor;
+		this.hairType = builder.hairType;
+		this.weapon = builder.weapon;
+		this.armor = builder.armor;
+	}
+	
+	public Profession getProfession(){
+		return profession;
+	}
+	
+	public String getName(){
+		return name;
+	}
+	
+	public HairType getHairType(){
+		return hairType;
+	}
+	
+	public HairColor getHairColor(){
+		return hairColor;
+	}
+	
+	public Armor getArmor(){
+		return armor;
+	}
+	
+	public Weapon getWeapon(){
+		return weapon;
+	}
+	
+	
+	public static class HeroBuilder{
+		private final Profession profession;
+		private  final String name;
+		private  HairType hairType;
+		private  HairColor hairColor;
+		private  Weapon weapon;
+		private  Armor armor;
+		
+		public HeroBuilder(Profession profession,String name){
+			if(profession == null || name == null){
+				throw new IllegalArgumentException(
+						"profession and name can not be null");
+			}
+			this.profession = profession;
+			this.name = name;
+		}
+		
+		
+		public HeroBuilder withHairType(HairType hairType){
+				this.hairType = hairType;
+				return this;
+		}
+		
+		public HeroBuilder withHairColor(HairColor hairColor){
+			this.hairColor = hairColor;
+			return this;
+		}
+		
+		public HeroBuilder withArmor(Armor armor){
+			this.armor = armor;
+			return this;
+		}
+		
+		public HeroBuilder withWeapon(Weapon weapon){
+			this.weapon = weapon;
+			return this;
+		}
+		
+		public Hero build(){
+			return new Hero(this);
+		}
+		
+		
+	}
+	
+	
+	
+	
+
+}
