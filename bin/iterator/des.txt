@@ -1,2 +1,5 @@
 provide a way to access the elements of an aggregate object sequentially without
 exposing its underlying representation.
+
+迭代器模式，定义为，提供一种方法顺序访问一个聚合对象中的各个元素，
+而又不暴露其内部的表示方法。
