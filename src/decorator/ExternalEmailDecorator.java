@@ -15,5 +15,4 @@ public class ExternalEmailDecorator extends EmailDecorator{
 	private String addDisclaimer(String contents) {
 		return contents +"\n\r Company disclaimer..";
 	}
-
 }
