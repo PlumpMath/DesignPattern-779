@@ -1,0 +1,15 @@
+decouple an abstraction from its implementation so that the two can vary independently.
+The bridge uses encapsulation, aggregation, and can use inheritance to separate responsibilities
+into different classes.
+
+你不希望在抽象和它的实现部分之间有一个固定的绑定关系。例如：程序的实现部分在运行时需要被选择或者切换。
+
+类的抽象以及它的实现都应该可以通过生成子类的方法加以扩充。这时Bridge模式使你可以对不同的抽象接口和实现部分进行组合，并分别对它们进行扩充。
+
+对一个抽象实现的修改需要对客户不产生影响，即客户的代码不必重新编译。
+
+有许多类要生成。这种情况下你必须将一个对象分解成两个部分。这种类层次结构为“嵌套的普化”。
+
+你想在多个对象间共享实现（可能使用引用计数），但同时要求客户并不知道这一点。
+---------------------------------------------------------------------------
+抽象与实现有一个固定的绑定部分
