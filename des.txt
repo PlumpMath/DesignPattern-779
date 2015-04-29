@@ -1,14 +1,41 @@
-1.ģʽ�ķ���
-������ Singleton Builder Prototype Abstract Factory Factory Method
-������ģʽ�漰��������ʵ����������ģʽ���ṩһ������
+1.模式的分类
+
+#Creational 创建型 
+	创建型模式涉及到将对象实例化，这类模式都提供一个方法
+	 Singleton 单例 
+	 	 一个类只有一个实例 
+	 Builder  构建者
+	 Prototype  原型
+	 Abstract Factory  抽象工厂
+	 Factory Method  工厂方法
+#Behavioral 行为型 
+	Chain Of Responsibility 责任链
+	Command 命令
+	Interpreter 解释器
+	Iterator 迭代器
+	Mediator 中介者
+	Memento 备忘录
+	Observer 观察者
+	State 状态
+	Strategy 策略
+	Template Method 模板方法
+	Visitor 访问者模式
+#Structural | strəkCHərəl 结构型
+	Adapter 适配器
+	Proxy 代理
+	Bridge 桥接
+	Composite 组合
+	Decorator 装饰者
+	Facade 外观
+	Flyweight 享元
+	
 
 
 
-
-#״̬ģʽ�Ͳ���ģʽ������
+#状态模式和策略模式的区别
 http://www.cnblogs.com/Mainz/archive/2007/12/15/996081.html
-#����ģʽ������ģʽ������
+#策略模式和命令模式的区别
 http://blog.csdn.net/jiafu1115/article/details/6980423
-#�����������ģʽ������
+#迭代器与组合模式的区别
 http://www.cnblogs.com/zhxiang/archive/2012/01/16/2324056.html
 
